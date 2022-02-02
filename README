@@ -1,0 +1,7 @@
+The month/day implmentaion is called "TradCalendar" and the number of days since the first of the year is called "NumDaysCalendar. Implementations are contained in the .cpp files while the interfaces are contained in the .h files.
+
+The driver.cpp file runs a command line based program to interact with either implementation. The calendars do not account for leap years, so Febrary will only have 28 days. Reaching the end of the month will automatically switch over into the next one and reaching the end of December with loop back to January first.
+
+The interative program validates input, but for testing the functions individually:
+-Months and dates must adhere to normal conventions (February only has 28 days)
+-The number of days since the beginning of the year ranges from 0 to 364.
